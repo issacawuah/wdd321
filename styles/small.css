@@ -154,7 +154,7 @@ footer p, footer #social-links {
   justify-content: space-between;
 }
 .about-me, .student-photo {
-  background: #c6acac;
+  background: #e3dede;
   border-radius: 6px;
   padding: 1rem;
   flex: 1 1 0;
@@ -195,7 +195,7 @@ footer p, footer #social-links {
   background: #666;
 }
 #course-count-message {
-  color: #c62828;
+  color: #77857c;
   font-weight: 600;
   text-align: center;
   margin-bottom: 1rem;
@@ -241,14 +241,14 @@ footer p, footer #social-links {
   font-size: 1rem;
   font-weight: 500;
   color: #4b3c6e;
-  border: 2px solid #ff7043;
+  border: 2px solid #272626;
   position: relative;
 }
-.course-card.completed {
-  background: #f5fbe7;
+/* .course-card.completed {
+  background: #ed0f04;
   color: #388e3c;
   border: 2px solid #388e3c;
-}
+} */
 .course-card.completed::before {
   content: '\2713';
   color: #388e3c;
@@ -277,3 +277,9 @@ footer p, footer #social-links {
 #social-links a:hover {
   text-decoration: underline;
 } 
+.header{
+  background-color: rgb(186, 179, 179);
+  /* align-content: space-between; */
+  padding: 3%;
+  margin: 2%;
+}
