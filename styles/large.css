@@ -23,7 +23,7 @@
     padding: 0.5rem 1rem;
   }
   nav a.active, nav a:hover {
-    background: #eee;
+    background: #fcf8f8;
     color: #222;
   }
   main {
